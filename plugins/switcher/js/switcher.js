@@ -60,7 +60,7 @@ $(function(){
     // Color changer
     jQuery(".skin-1").on('click',function(){
         jQuery(".skin").attr("href", "css/skin/skin-1.css");
-		jQuery(".logo-header img").attr("src", "images/logo.png");
+		jQuery(".logo-header img").attr("src", "images/download_logo.png");
         return false;
     });
     

@@ -90,7 +90,7 @@ var Clean360 = function(){
 			if($('.mo-left .header-nav').children('.logo-header').length == 0){
 				var logoData = jQuery('<div>').append($('.mo-left .logo-header').clone()).html();
 				jQuery('.mo-left .header-nav').prepend(logoData);
-				jQuery('.mo-left .header-nav .logo-header > a > img').attr('src','images/logo.png');
+				jQuery('.mo-left .header-nav .logo-header > a > img').attr('src','images/download_logo.png');
 				jQuery('.header-style-2.mo-left .header-nav .logo-header > a > img').attr('src','images/logo2.png');
 				jQuery('.mo-left.lw .header-nav .logo-header > a > img').attr('src','images/logo-white.png');
 				jQuery('.mo-left .header-nav .logo-header.dark > a > img').attr('src','error-404.html');
@@ -603,7 +603,7 @@ var Clean360 = function(){
 	}
 	
 	var handleSupport = function(){
-		var support = '<a href="https://1.envato.market/DaeQG" target="_blank" class="bt-buy-now theme-btn"><i class="ti-shopping-cart"></i><span>Buy Now</span></a><a href="https://w3itexperts.ticksy.com" target="_blank" class="bt-support-now theme-btn"><i class="ti-headphone-alt"></i><span>Support</span></a><!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" src="../../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b221c5e31b4e54b"></script>';
+		var support = '<a href="https://api.whatsapp.com/send?phone=+919424666660&text=Hi,%20I%20would%20like%20to%20get%20more%20information.." target="_blank" class="bt-buy-now theme-btn"><i class="fa fa-whatsapp"></i><span>Whatspp</span></a><a href="tel:919424666660" class="bt-support-now theme-btn"><i class="ti-headphone-alt"></i><span>+919424666660</span></a><!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" src="../../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b221c5e31b4e54b"></script>';
 		jQuery('body').append(support);
 	}
 	
